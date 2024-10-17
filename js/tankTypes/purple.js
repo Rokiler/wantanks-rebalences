@@ -4,7 +4,7 @@ class PurpleTank extends Bot {
 		const rotationSpeed = degreesToRadians(13);
 		const stun = -3;
 		const shellCap = 10;
-		const shellCooldown = -3;
+		const shellCooldown = 2;
 		const frm = -3;
 		const stopAndTurn = degreesToRadians(35);
 		const uTurn = degreesToRadians(160);
