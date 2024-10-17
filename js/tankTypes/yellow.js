@@ -63,6 +63,7 @@ class YellowTank extends Bot {
 			if (this.mineCount < this.mineMax) {
 				this.mineCount += deltaTime;
 			} else {
+				wait(5)
 				super.layMine();
 				this.mineCount = 0;
 			}
